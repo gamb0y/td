@@ -1,0 +1,167 @@
+#title {
+  background-color: #ff4c68;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+p {
+  color: #888888;
+}
+
+.container-fluid {
+  padding: 3% 15% 5%;
+}
+
+/* nav bar */
+
+.navbar {
+  padding: 0 0 4rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  font-size: 1.2rem;
+  padding: 0 16px;
+}
+
+/* title */
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.title-img {
+  width: 50%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* features */
+
+#features {
+  padding: 5% 15%;
+  background-color: white;
+  position: relative;
+  /* z-index: 1; */
+}
+
+.feat-col {
+  text-align: center;
+  padding: 5%;
+}
+
+.feat-img {
+  margin-bottom: 1rem;
+  color: #ee8572;
+  cursor: pointer;
+}
+
+.feat-img:hover {
+  color: #ff4c68;
+}
+
+/* testimonials */
+
+#testimonials {
+  background-color: #ee8572;
+  color: white;
+  text-align: center;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* press */
+
+#press {
+  background-color: #ee8572;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.press-img {
+  width: 10%;
+  margin: auto 10px;
+}
+
+#pricing {
+  text-align: center;
+  padding: 5%;
+}
+
+.pricing-header {
+  padding-bottom: 30px;
+}
+
+.pricing-col {
+  padding: 2%;
+}
+
+.pricing-h3 {
+  margin: 0;
+}
+
+#cta {
+  padding: 5% 15%;
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+.cta-msg {
+  color: white;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#footer {
+  padding: 5% 15%;
+  text-align: center;
+}
+
+.footer-icon {
+  margin: 1.5rem 0.5rem;
+}
+
+@media (max-width: 1080px) {
+  .title-row {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #cta {
+    padding: 30px 10px 0;
+  }
+}
